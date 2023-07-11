@@ -88,9 +88,62 @@ nav a{
 
 }
 /*main section styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*our featured flower*/
 .our-feature {
     font-size: 40px;
     font-weight: 40px;
     margin: 130px 0;
 }
+/*product section*/
+.product-info{
+    display: flex;
+}
+.product-info {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+  }
+  .product-1{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+ 
+.product-2{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.product-3{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.footer{
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+
+  }
+  
